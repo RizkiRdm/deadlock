@@ -1,0 +1,6 @@
+{
+  "name": "Deadlock",
+  "description": "Long-term, immutable Android app lock based on package identity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Deadlock</string>
+    <string name="admin_label">Deadlock Device Admin</string>
+    <string name="admin_description">Enforces permanent application lock policies and prevents uninstallation of restricted packages.</string>
+    <string name="accessibility_label">Deadlock App Interceptor</string>
+    <string name="accessibility_description">Real-time launch interceptor that blocks restricted applications immediately.</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_next">Next</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_return_home">Return Home</string>
+
+    <string name="onboarding_slide1_title">Lock apps for years, not minutes</string>
+    <string name="onboarding_slide1_body">Commit to long-term digital boundaries on distracting apps with zero early-unlock buttons or software overrides.</string>
+    <string name="onboarding_slide2_title">Bound to the app identity</string>
+    <string name="onboarding_slide2_body">Locks target the package ID itself and are HMAC-signed in Android Keystore, surviving restarts and reinstalls.</string>
+    <string name="onboarding_slide3_title">Enable launch protection</string>
+    <string name="onboarding_slide3_body">Turn on the Hard Lock Interceptor so Deadlock blocks restricted apps the instant they are opened.</string>
+    <string name="onboarding_interceptor_active">Interceptor active</string>
+    <string name="onboarding_interceptor_needed">Setup required</string>
+    <string name="onboarding_enable_interceptor">Enable Interceptor</string>
+    <string name="onboarding_continue_vault">Continue to Vault</string>
+    <string name="onboarding_setup_later">Set up later</string>
+
+    <string name="dashboard_protection_desc">Device protection settings</string>
+    <string name="dashboard_setup_banner_title">Enable Hard Lock Interceptor</string>
+    <string name="dashboard_setup_banner_body">Tap to allow real-time launch blocking in Accessibility Settings.</string>
+    <string name="dashboard_stat_active_locks">Active Locks</string>
+    <string name="dashboard_stat_protection">Protection</string>
+    <string name="dashboard_mode_owner">Device Owner</string>
+    <string name="dashboard_mode_interceptor">Interceptor</string>
+    <string name="dashboard_mode_setup">Setup Needed</string>
+    <string name="dashboard_empty_title">No active locks</string>
+    <string name="dashboard_empty_body">Select an installed app to lock it behind a multi-year cryptographic policy.</string>
+    <string name="dashboard_cta_lock_app">Lock an App</string>
+
+    <string name="selector_title">Choose an App</string>
+    <string name="selector_search_placeholder">Search apps or package ID</string>
+    <string name="selector_empty">No matching apps found.</string>
+    <string name="selector_cta_configure">Configure Lock</string>
+
+    <string name="sheet_duration_label">Lock duration</string>
+    <string name="sheet_duration_1y">1 Year</string>
+    <string name="sheet_duration_2y">2 Years</string>
+    <string name="sheet_duration_custom">Custom</string>
+    <string name="sheet_unlocks_on">Unlocks on</string>
+    <string name="sheet_warning_text">Permanent once activated. Uninstalling the app will not lift this lock, and there is no early-unlock option.</string>
+    <string name="sheet_confirm_checkbox">I understand this lock cannot be cancelled or shortened early.</string>
+    <string name="sheet_cta_activate">Activate Lock</string>
+
+    <string name="detail_title">Lock Details</string>
+    <string name="detail_not_found">Policy not found.</string>
+    <string name="detail_time_remaining">Time remaining</string>
+    <string name="detail_schedule_title">Schedule</string>
+    <string name="detail_duration">Duration</string>
+    <string name="detail_started">Started</string>
+    <string name="detail_unlocks">Unlocks</string>
+    <string name="detail_integrity_title">Keystore Verification</string>
+    <string name="detail_integrity_valid">HMAC-SHA256 signature verified via Android Keystore.</string>
+    <string name="detail_integrity_invalid">Integrity mismatch detected. Policy remains strictly blocked.</string>
+
+    <string name="settings_title">Device Protection</string>
+    <string name="settings_interceptor_title">Hard Lock Interceptor</string>
+    <string name="settings_interceptor_desc">Blocks restricted apps the moment they launch via Android Accessibility.</string>
+    <string name="settings_owner_title">Device Owner (Optional)</string>
+    <string name="settings_owner_active_desc">Full OS enforcement enabled: package hiding, uninstall lock, and safe-boot restriction.</string>
+    <string name="settings_owner_pending_desc">Run via ADB to unlock OS-level app hiding and uninstall protection.</string>
+    <string name="settings_adb_note">Remove existing Google accounts temporarily if required by ADB before provisioning.</string>
+    <string name="settings_adb_copied">ADB command copied</string>
+
+    <string name="blocker_badge">Locked by Deadlock</string>
+    <string name="blocker_title">Access Blocked</string>
+    <string name="blocker_unlocks_on">Unlocks on</string>
+    <string name="blocker_time_remaining">Remaining</string>
+    <string name="blocker_notice">This app is under an active lock policy and cannot be opened until expiration.</string>
+</resources>
